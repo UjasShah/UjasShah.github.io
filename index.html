@@ -1,43 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujas Shah - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ujas Shah</title>
+  <meta name="description" content="Ujas Shah — PhD student in Computer Science at the University of Colorado Boulder, working on graph structure learning and transport and diffusion modeling.">
+
+  <!-- Font: EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <!-- <img src="your_photo.jpg" alt="Your Name"> -->
-        <h1>Ujas Shah</h1>
-        <p>PhD Student in [Your Field]</p>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>[A brief paragraph about yourself]</p>
-    </section>
-    
-    <section id="research">
-        <h2>Research Interests</h2>
-        <ul>
-            <li>[Research Interest 1]</li>
-            <li>[Research Interest 2]</li>
-            <!-- Add more as needed -->
-        </ul>
-    </section>
+  <main>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li>[Publication 1]</li>
-            <li>[Publication 2]</li>
-            <!-- Add more as needed -->
-        </ul>
-    </section>
+    <!-- ============ NAME & LINKS ============ -->
+    <h1>Ujas Shah</h1>
+    <p class="role">PhD Student, Computer Science, University of Colorado Boulder</p>
+    <!-- Email is written out in words so spam bots can't pick it up -->
+    <p class="email">ujas dot shah at colorado dot edu</p>
+    <nav class="links">
+      <a href="cv.pdf">cv</a>
+      <a href="https://scholar.google.com/citations?user=Gu6uofsAAAAJ&amp;hl=en">scholar</a>
+      <a href="https://www.linkedin.com/in/ujas-shah">linkedin</a>
+      <a href="https://github.com/UjasShah">github</a>
+    </nav>
 
-    <footer>
-        <p>Contact me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    </footer>
+    <!-- ============ PHOTO ============
+         To use your own photo: put it in this folder as photo.jpg,
+         then change src="photo-placeholder.svg" to src="photo.jpg".
+         A portrait (taller than wide) photo fits best. -->
+    <img class="portrait" src="photo-placeholder.svg" alt="Photo of Ujas Shah">
+
+    <!-- ============ ABOUT ============ -->
+    <p>
+      I am a PhD student in Computer Science at the University of Colorado
+      Boulder, advised by <a href="https://rebeccaem.github.io">Rebecca Morrison</a>. 
+      I work on transport and diffusion modeling and graph structure learning.
+    </p>
+    <p>
+      In what now feels like a previous life, I was a research analyst at <em>The Economist Group</em>, where
+      I led the India forecasts on the economy, politics and policy. And prior to that I was formally trained in 
+      economics and international relations.
+    </p>
+
+    <!-- ============ NEWS ============
+         Newest first. Delete old items whenever you like. -->
+    <h2>News</h2>
+    <ul class="news">
+      <li><span class="date">November 2026.</span>Poster at the SIAM Conference on Mathematics of Data Science (MDS26) in Salt Lake City.</li>
+      <li><span class="date">October 2026.</span>New preprint on learning non-Gaussian SEMs with conditional risk, now <a href="https://arxiv.org/abs/2610.14246">on arXiv</a>.</li>
+      <li><span class="date">October 2026.</span>Received the Clive Baillie Memorial Travel Award from CU Boulder.</li>
+      <li><span class="date">August 2025.</span>New preprint on conditional independence for the generalized nonparanormal, now <a href="https://arxiv.org/abs/2508.11050">on arXiv</a>.</li>
+      <li><span class="date">July 2025.</span>Talk at the 18th U.S. National Congress on Computational Mechanics (USNCCM18) in Chicago.</li>
+    </ul>
+
+    <!-- ============ PAPERS ============
+         Copy one <li>...</li> block per paper. Your own name goes in <strong>. -->
+    <h2>Papers</h2>
+    <ul class="pubs">
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2610.14246">Learning Non-Gaussian SEMs with Conditional Risk, and Why the Direction of Recursion Matters</a>
+        <span class="authors"><strong>Ujas Shah</strong>, P. Birmpa, R. Morrison</span>
+        <span class="venue">Under review, 2026 · arXiv:2610.14246</span>
+      </li>
+      <li>
+        <a class="title" href="https://arxiv.org/abs/2508.11050">Conditional Independence Estimates for the Generalized Nonparanormal</a>
+        <span class="authors"><strong>Ujas Shah</strong>, M. Lladser, R. Morrison</span>
+        <span class="venue">Under review at the Journal of Machine Learning Research, 2025 · arXiv:2508.11050</span>
+      </li>
+    </ul>
+
+    <!-- ============ TALKS & POSTERS ============ -->
+    <h2>Talks &amp; Posters</h2>
+    <ul class="pubs">
+      <li>
+        <span class="title">Learning Non-Gaussian Structural Equation Models with Conditional Risk</span>
+        <span class="venue">Poster, SIAM Conference on Mathematics of Data Science (MDS26), Salt Lake City, November 2026</span>
+      </li>
+      <li>
+        <span class="title">New Algorithms for Learning Directed Acyclic Graphs from Non-Gaussian Distributions</span>
+        <span class="venue">Talk, 18th U.S. National Congress on Computational Mechanics (USNCCM18), Chicago, July 2025</span>
+      </li>
+    </ul>
+
+    <footer>Last updated November 2026</footer>
+
+  </main>
 </body>
 </html>
